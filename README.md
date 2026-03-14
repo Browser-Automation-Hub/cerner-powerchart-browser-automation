@@ -21,7 +21,7 @@ This system requires **MFA** (Duo Security / RSA SecurID). The OSS version provi
 ## Quick Start
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/cerner-powerchart-browser-automation.git
+git clone https://github.com/Browser-Automation-Hub/cerner-powerchart-browser-automation.git
 cd cerner-powerchart-browser-automation
 npm install
 cp .env.example .env
@@ -253,12 +253,24 @@ await withAnchorBrowser(async (page) => {
 
 ---
 
+## More Browser Automation Projects
+
+This is part of the **[Browser Automation Hub](https://github.com/Browser-Automation-Hub)** — a collection of open-source browser automation scaffolds for systems with poor or no API support:
+
+- [Epic EHR Browser Automation](https://github.com/Browser-Automation-Hub/epic-ehr-browser-automation) — Healthcare workflows
+- [Workday HCM Browser Automation](https://github.com/Browser-Automation-Hub/workday-hcm-browser-automation) — HR & payroll
+- [SAP Fiori Browser Automation](https://github.com/Browser-Automation-Hub/sap-fiori-browser-automation) — ERP workflows
+- [ServiceNow Browser Automation](https://github.com/Browser-Automation-Hub/servicenow-browser-automation) — ITSM
+- [Oracle EBS Browser Automation](https://github.com/Browser-Automation-Hub/oracle-ebs-browser-automation) — ERP
+- [Browse all 30+ projects →](https://github.com/Browser-Automation-Hub)
+
 ## Contributing
 
 PRs welcome! Please:
 1. Add tests for new actions
 2. Document new selectors (they break when Cerner updates its UI)
 3. Follow the `ActionBuilder` pattern for new actions
+4. See [CONTRIBUTING.md](CONTRIBUTING.md) for full guidelines
 
 ## License
 
@@ -267,3 +279,5 @@ MIT — use freely in personal and commercial projects.
 ---
 
 *Built with ❤️ for developers who need to automate Cerner PowerChart without wrestling with its API limitations. Powered by [AnchorBrowser](https://anchorbrowser.io) for cloud-scale automation.*
+
+*⭐ Star this repo if it saves you time! [Browse all automation projects →](https://github.com/Browser-Automation-Hub)*
