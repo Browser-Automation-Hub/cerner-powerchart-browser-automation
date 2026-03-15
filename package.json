@@ -1,7 +1,7 @@
 {
-  "name": "cerner-powerchart-browser-automation",
+  "name": "@browser-automation-hub/cerner-powerchart-browser-automation",
   "version": "1.0.0",
-  "description": "Browser automation for Cerner PowerChart — extract clinical data, manage orders, automate documentation, and navigate PowerChart without the API.",
+  "description": "Browser automation for Cerner PowerChart — extract clinical data, manage orders, and automate documentation without the API",
   "main": "src/actions.js",
   "scripts": {
     "start": "node examples/basic-login.js",
@@ -17,7 +17,7 @@
     "browser-automation",
     "puppeteer",
     "playwright",
-    "anchorbrowser",
+    "anchor-browser",
     "nodejs"
   ],
   "license": "MIT",
@@ -36,5 +36,8 @@
   "homepage": "https://github.com/YOUR_USERNAME/cerner-powerchart-browser-automation#readme",
   "bugs": {
     "url": "https://github.com/YOUR_USERNAME/cerner-powerchart-browser-automation/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
